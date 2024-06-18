@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestWorkLIbraly.Interfaces
+namespace TestWorkLIbraly.Figures.Base
 {
-    public interface IFigure
+    public class Figure
     {
-        public int Square { get; set; }
+        public double Square { get; set; }
 
-        public int GetSquare()
+        public virtual double GetSquare()
         {
             return Square;
         }
